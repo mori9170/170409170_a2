@@ -1,0 +1,164 @@
+
+
+#content {
+  display: -webkit-flex;
+  display: flex;
+  height: 100%;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+
+#footer {
+  position: absolute;
+  bottom:0;
+  left:0;
+  background-color: #dfe3ee;
+  color: #808080;
+  height: 50px;
+  text-align: center;
+}
+
+
+
+#header {
+  margin-left: 40px;
+  margin-right: 40px;
+  background-color:	#dfe3ee;
+  color: #808080;
+  font-family: helvetica;
+  text-align: center;
+}
+
+
+#mid1 {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction:column;
+  background-color: #f7f7f7;
+  width: 49.5%;
+  height: 350px;
+  text-align: center;
+  line-height: 350px;
+  font-size: 50px;
+  float: left;
+  border: 1px black solid;
+
+}
+
+
+#mid2 {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction:column;
+  background-color: #f7f7f7;
+  width: 49.5%;
+  height: 350px;
+  text-align: center;
+  line-height: 350px;
+  font-size: 50px;
+  float: right;
+  border: 1px black solid;
+
+}
+
+#halfmid1 {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction:column;
+  background-color: #f7f7f7;
+  width: 49.5%;
+  height: 350px;
+  text-align: center;
+  line-height: 116px;
+  /*font-size: 50px;*/
+  float: left;
+  border: 1px black solid;
+
+}
+
+
+#halfmid2 {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction:column;
+  background-color: #f7f7f7;
+  width: 49.5%;
+  height: 350px;
+  text-align: center;
+  line-height: 116px;
+  /*font-size: 50px;*/
+  float: right;
+  border: 1px black solid;
+
+}
+
+
+#subcontent {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+
+#inscontainer1 {
+  flex-grow: 1
+}
+
+h2 {
+  text-align: left;
+}
+
+
+
+h3 {
+
+  text-align: center;
+}
+
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #fffff;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #3b5998;
+  text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+nav {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+a {
+  color: #3b5998;
+  style: none;
+}

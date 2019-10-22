@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel = "stylesheet" type = "text/css" href = "../css/stylesheet.css" />
+    <link rel='icon' href='../img/favicon.png' type='image/x-icon'/ >
+    <script src="../js/app.js" type="text/javascript"></script>
+    <script type="text/javascript">
+      newdiv(displaydiv,div2,div3,div4);
+    </script>
+  </head>
+  <body>
+
+    <div class='straw-wrapper'>
+      <div class = "header">
+        <div class="headers1">
+          <a href="../index.html">
+            <img src="../img/DD-Logo.png" alt="DynamiteDonuts Logo">
+            </img>
+          </a>
+        </div>
+        <div class="headers2">
+          <ul class="breadcrumb">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../product-page/index.html">Products</a></li>
+            <li><a href="index.html">Strawberry</a></li>
+            <li><a href="../vanilla/index.html">Vanilla</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class = "straw-contentwrap">
+
+        <!-- PICTURES SECTION -->
+        <section class="straw-s1">
+          <div class="straws1-big">
+            <div id="jelly-filled" class="sprod1">
+              <div class="imagecont">
+                <img src="../img/s-jelly.png" alt="Strawberry Jelly Donut"></img>
+              </div>
+            </div>
+            <div id="big-sprinkles" class="sprod1">
+              <div class="imagecont">
+                <img src="../img/s-bigsprink.png" alt="Strawbery Big Sprinkles Donut"></img>
+              </div>
+            </div>
+            <div id="small-sprinkles" class="sprod1">
+              <div class="imagecont">
+                <img src="../img/s-sprinkle.png" alt="Strawbery Small Sprinkles Donut"></img>
+              </div>
+            </div>
+            <div id="lined-icing" class="sprod1">
+              <div class="imagecont">
+                <img src="../img/s-lined.png" alt="Strawbery Donut with lined icing"></img>
+              </div>
+            </div>
+          </div>
+
+          <!-- PICKER SECTION -->
+          <div class="straws1-small">
+
+            <div class="sprodpicker">
+              <div class="sprodpicks1">
+                <h3>Take your pick!</h3>
+              </div>
+              <div class="sprodpicks2">
+                <div class='quartercontainer'>
+                  <a href="javascript:newdiv('jelly-filled','big-sprinkles','small-sprinkles','lined-icing')">
+                    Jelly Filled
+                  </a>
+                  <a href="javascript:newdiv('big-sprinkles','jelly-filled','small-sprinkles','lined-icing')">
+                    Big Sprinkles
+                  </a>
+                </div>
+                <div class='quartercontainer'>
+                  <a href="javascript:newdiv('small-sprinkles','big-sprinkles','jelly-filled','lined-icing')">
+                    Small Sprinkles
+                  </a>
+                  <a href="javascript:newdiv('lined-icing','small-sprinkles','big-sprinkles','jelly-filled')">
+                    Lined Icing
+                  </a>
+                </div>
+
+              </div>
+            </div>
+            <button> ADD ME TO YOUR CART </button>
+          </div>
+
+        </section>
+
+
+
+      </div>
+      <section class="straw-footer">
+      </section>
+
+
+    </div>
+
+  </body>
+</html>
